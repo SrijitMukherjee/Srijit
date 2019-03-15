@@ -1,0 +1,5 @@
+library(readxl)
+Data <- read_excel("File Location", 
++     col_types = c("numeric", "date", "text", 
++         "text", "text", "text", "numeric", 
++         "numeric"))
